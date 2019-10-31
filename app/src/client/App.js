@@ -16,10 +16,9 @@ export default class App extends Component {
     return (
       <div>
         {jwt ? <h1>{`Hello ${jwt.name}`}</h1> : <h1>Loading.. please wait!</h1>}
+        <h2>Here is the JWT:</h2>
         <pre>
-          <code>
-            {JSON.stringify(jwt, undefined, 2)}
-          </code>
+          {JSON.stringify(jwt, undefined, 2)}
         </pre>
       </div>
     );
