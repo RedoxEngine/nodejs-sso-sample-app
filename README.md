@@ -2,9 +2,12 @@ This is a very rough sample application that demostrates validating a JWT in nod
 
 To get started:
 
-`export SSO_SECRET="<generated in Redox Dashboard"`
+`export SSO_SECRET="<generated in Redox Dashboard>"`
+
 `cd app`
+
 `npm install`
+
 `npm start`
 
 The application will be running on http://localhost:8080 by default. The port can be changed by using the `PORT` environment variable.
